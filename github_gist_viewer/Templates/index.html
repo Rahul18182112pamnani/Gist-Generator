@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub Gist Viewer</title>
+  </head>
+  <body>
+    <h1>GitHub Gist Viewer</h1>
+    <form id="gist-form" method="post" action="/get_gists">
+      <label for="username">Enter GitHub Username:</label>
+      <input type="text" id="username" name="username" required />
+      <button type="submit">Get Gists</button>
+    </form>
+    <div id="results"></div>
+  </body>
+</html>
